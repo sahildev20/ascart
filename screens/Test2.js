@@ -77,22 +77,14 @@ export function Test2({ navigation }) {
             opacity: 0.05,
           }}
         />
-        <View
-          style={{
-            width: deviceWidth,
-            height: deviceHeight * 0.4,
-            alignItems: "center",
-            justifyContent: "center",
-          }}
-        >
-          <AppLoading size={200} />
-          <Text style={{ fontWeight: "800", fontSize: 20, marginBottom: 20 }}>
-            Nothing in you cart
-          </Text>
-          <Text style={{ fontWeight: "400", fontSize: 14, marginBottom: 20 }}>
-            Add products to cart will appear here
-          </Text>
-        </View>
+
+        <Text style={{ fontWeight: "800", fontSize: 20, marginBottom: 20 }}>
+          Nothing in you cart
+        </Text>
+        <Text style={{ fontWeight: "400", fontSize: 14, marginBottom: 20 }}>
+          Add products to cart will appear here
+        </Text>
+
         <TouchableOpacity
           style={[
             styles.Button,
@@ -101,7 +93,7 @@ export function Test2({ navigation }) {
           onPress={() => navigation.navigate("Home")}
         >
           <Text style={[styles.buttonText, { fontFamily: "Poppins_Bold" }]}>
-            BROWSE PRODUCTS
+            Add Some Products
           </Text>
         </TouchableOpacity>
       </View>
