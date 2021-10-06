@@ -1,0 +1,11 @@
+{
+    "editor.comments.ignoreEmptyLines": false,
+    "diffEditor.wordWrap": "on",
+    "editor.wordWrap": "on",
+    "screencastMode.fontSize": 32,
+    "editor.fontSize": 15,
+    "terminal.integrated.fontSize": 12,
+    "debug.console.fontSize": 18,
+    "editor.formatOnSave": true,
+    "editor.formatOnSaveMode": "modifications"
+}
